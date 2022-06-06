@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+    text-decoration: none;
+    
+}
+body{
+    background-color: #151226;
+    
+    
+}
+.container{
+    width: 85%;
+    
+    margin: 0 auto;
+}
+/*header*/
+.header{
+    background-color: #F2B6A0;
+    color: #151226;
+    padding: 1rem 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    margin: 0px;
+    
+    
+}
+.logo{
+    width: 80px;
+    height: 80px;
+}
+.logo_nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.header a{
+    color: #151226;
+    text-decoration: none;
+}
+.navi ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+.navi ul li{
+    display: inline-block;
+
+}
+.navi ul li a{
+    display: block;
+    padding: 0.5rem, 1rem;
+    transition: all 1 ease-in-out;
+    border-radius: 5px;
+    margin-right: 2.9rem;
+    font-size: 1.25rem;
+    
+
+}
+.navi ul li a:hover{
+    background: #151226;
+    color: #F2B6A0;
+    transform: scale(1.5,1.5);
+    transition: all 0.5s ease-in-out;
+
+}
+/*body*/
+#titulo{
+    margin: 0 auto;
+    height: auto;
+    color: #151226;
+    margin-top: 150px;
+    font-size: 3rem;
+    text-align: center;
+}
+.caja{
+    margin: 0 auto;
+    width: 40%;
+    height: 250px;
+    background-color: #F2B6A0;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    padding: 10px;
+    
+    text-decoration: none;
+    box-shadow: 0 8px 32px 0 rgba(53, 16, 70, 0.733);
+    display: inline-block;
+    margin-right:45px;
+    margin-left: 45px;
+
+}
+.caja1{
+    margin-top: 60px;
+    border-radius: 20px 100px;
+}
+.caja2{
+    border-radius: 100px 20px;
+    top: 0px;
+    bottom: 10px;
+}
+
+
+.link{
+    text-align: center;
+    text-decoration: none;
+    margin-top: 50px;
+    margin-left: 150px;
+    width: 40%;
+    font-size: 1.5rem;
+    color: #F2B6A0;
+    
+    
+    
+}
+.img_logo_contacto{
+    width: 100px;
+    height: auto;
+    margin-top: 10px;
+    margin-left: 190px;
+    
+    
+  
+    
+}
+/*animaciones*/
+.caja:hover{
+    transform: scale(1.2,1.2);
+    transition: all .4s ease-in-out;
+}
+/*footer*/
+.footer{
+    background: #F2B6A0;
+    padding: 2rem 0;
+    text-align: center;
+    margin-top: 6rem;
+    position: relative;
+    color: #615A73;
+    width: 100%;
+
+}
+#footer{
+    margin-top: 2rem;
+    color: #615A73;
+}

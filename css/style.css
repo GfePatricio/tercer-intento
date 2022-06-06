@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+    
+}
+body{
+    background-color: #A68A99;
+    
+    
+}
+
+/*header*/
+.header{
+    background-color: #151226;
+    color: #F2B6A0;
+    padding: 1rem 0;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    
+}
+.logo{
+    background-color: #151226;
+    width: 80px;
+    height: 80px;
+    
+    
+    
+}
+.logo_nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header a{
+    color: #F2B6A0;
+    text-decoration: none;
+}
+.navi ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+.navi ul li{
+    display: inline-block;
+
+}
+.navi ul li a{
+    display: block;
+    padding: 0.5rem, 1rem;
+    transition: all 1 ease-in-out;
+    border-radius: 5px;
+    margin-right: 2.9rem;
+    font-size: 1.25rem;
+    font-family: 'Comfortaa', cursive;
+    
+
+}
+.navi ul li a:hover{
+    background: #F2B6A0;
+    color: #151226;
+    transform: scale(1.5,1.5);
+    transition: all 0.5s ease-in-out;
+
+}
+/*footer*/
+.footer{
+    background: #151226;
+    padding: 1.2rem;
+    text-align: center;
+    margin-top: 6rem;
+    
+    
+}
+#footer{
+    margin-top: 2.5rem;
+    color: #615A73;
+}
+/*main*/
+.main{
+    padding-top: 12rem;
+    color: #0D0D0D;
+}
+.glass{
+    background-color: rgba(255, 255, 255, 0.3);
+	backdrop-filter: blur (50px);
+    box-shadow: 0 8px 32px 0 rgba(31,38,135, .37);
+    padding: 1.5rem;
+    border-radius: 10px;
+    
+}
+.icon{
+    width: auto;
+    height: 100px;
+    display: inline-block;
+    
+}
+.juntos{
+    margin-left: 150px;
+}
+
+#rocket:hover{
+    transform: translate(30rem);
+    transition: all 1s ease-in-out;
+}
+#planet{
+    margin-left: 400px;
+}
+#exito{
+    margin-left: 350px;
+}
+#exito:hover{
+    transform: rotate(360deg);
+    transition: all 4s ease-in-out;
+}
+#aterrizaje{
+    margin-left: 400px;
+    margin-top: 20px;
+
+}
+#aterrizaje:hover{
+    transform: scale(1.5,1.5);
+    transition: all 1.5s ease-in-out;
+}
+
+#tituloinicio
+{
+    font-size: 3rem;
+    line-height: 1.3em;
+    text-align: center;
+    color: #615A73;
+    font-family: 'Comfortaa', cursive;
+}
+p{
+    padding: 0px 50px;
+    margin: o auto;
+    margin-bottom: 3.5rem;
+    width: 75%;
+    margin-left: 70px;
+    text-align: justify;
+    font-size: 1.2rem;
+    color: #0D0D0D;
+    font-family: 'Comfortaa', cursive;
+}
+
+h5{
+    text-align: center;
+    font-size: 1.8rem;
+    margin-top: 30px;
+    margin-bottom: 2rem;
+    color: #151226;
+    font-family: 'Comfortaa', cursive;
+}
+.container{
+    width: 65%;
+    
+    margin: 0 auto;
+}
+
